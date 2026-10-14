@@ -4,7 +4,7 @@ from ase.filters import FrechetCellFilter
 from ase.optimize import BFGS
 
 # 1. Build a Cu FCC cube. cubic=True gives the full cube, not the smaller primitive cell
-atoms = bulk("Cu", "fcc", a=3.8, cubic=True)
+atoms = bulk("Cu", "fcc", a=3.3, cubic=True)
 print("Start: a =", atoms.cell.cellpar()[0], "A")
 
 # 2. Attach the rulebook that gives energy and forces
