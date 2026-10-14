@@ -1,0 +1,19 @@
+name: a2a
+channels:
+  - conda-forge
+dependencies:
+  - mp-api
+  - python=3.12
+  - pytorch[build=cpu*]
+  - matplotlib
+  - numpy
+  - pytest
+  - pint
+  - lammps
+  - pymatgen
+  - scipy
+  - scikit-learn
+  - jupyterlab
+  - pydantic
+  - ase
+prefix: /home/amade/miniforge3/envs/a2a
